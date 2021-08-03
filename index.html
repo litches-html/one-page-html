@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ff47/css/font-awesome.css">
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body bgcolor="white">
+    <div class="top-container">
+        <a href="" class="github-a">my github</a>
+        <a href="" class="website-github">Web Site Source</a>
+        <a href="" class="software-github">Software Open Source Files</a>
+        <font class="website-title">Just Give Me</font>
+    </div>
+    <div class="left-container">
+        <ul>
+            <li onclick="whoWeAre()"><font> </font><a href="#" onclick="whoWeAre()"> <i class="fa fa-user-circle" aria-hidden="true"></i> Who we Are</a></li>
+            
+            <li><font> </font><a href="#"> <i class="fa fa-download" aria-hidden="true"></i>  Download</a></li>
+            
+            <li onclick="Contact()"><font> </font><a href="#" onclick="Contact()"> <i class="fa fa-envelope-open" aria-hidden="true"></i>  Contact</a></li>
+           
+            <li onclick="Updates()"><font> </font><a href="#" onclick="Updates()"> <i class="fa fa-free-code-camp" aria-hidden="true"></i> Updates</a></li>
+            <li class="open-credits"onclick="Updates()"><font> </font><a href="#" onclick="Updates()"> <i class="fa fa-id-card-o" aria-hidden="true"></i> Credits</a>
+                
+                <ul class="credits">
+                    <li class="credits-text"><a href="" class="text-cred-a">@litches-html</a></li>
+                    <li class="credits-text"><a href="" class="text-cred-a">arch kullanan </a></li>
+                
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="main-container">
+        <font id="title-font">||</font><br>
+        <font id="content">blahblahblahblahblahblahblahblahblahblahblahblahblah blahblahblahblahblahblahblahblahblahblahblahblahblah blahblahblahblahblahblahblahblahblahblahblahblahblah</font>
+    </div>
+
+    <script>
+        function whoWeAre(){
+            document.getElementById("title-font").innerHTML = "|Who We Are|";
+            document.getElementById("content").innerHTML = "|Who We Are| text";
+
+        }
+        function Contact(){
+            document.getElementById("title-font").innerHTML = "|Contact|";
+            document.getElementById("content").innerHTML = "|contact| text";
+
+        }
+        function Updates(){
+            document.getElementById("title-font").innerHTML = "|Updates|";
+            document.getElementById("content").innerHTML = "|Updates| text";
+
+        }
+
+    </script>
+    </body>
+</html>
